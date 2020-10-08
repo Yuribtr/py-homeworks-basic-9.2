@@ -26,3 +26,9 @@ class YaUploader:
 if __name__ == '__main__':
     uploader = YaUploader('<Your Yandex Disk token>')
     result = uploader.upload('c:\my_folder\file.txt')
+```
+
+#Solution
+Made class, which can upload file to Yandex disk, and recursively get list of files on disk.
+This class also understand error codes and exceptions that can be raised during network connections and JSON parsing.    
+If you have no Yandex token pls get it on https://yandex.ru/dev/disk/poligon/
